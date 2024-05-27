@@ -1,0 +1,98 @@
+
+
+.auth-page-banner-section {
+    background-color: #e6feed;
+}
+
+.auth-form-section {
+    background-color: #fafffb;
+}
+
+.auth-page {
+    height: 100vh;
+}
+
+
+
+
+.auth-page {
+    height: 100vh; 
+  }
+  
+
+  .auth-page-banner-section {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #carouselExampleAutoplaying,
+  .carousel-inner,
+  .carousel-item {
+    height: 100%;
+    /* background-color: blue; */
+  }
+  .carousel-indicators{
+    align-items: center;
+    gap: 2px;
+    bottom: 20px !important;
+  }
+  .carousel-indicators>button{
+    width: 8px !important;
+    height: 8px !important; 
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255)  !important;
+    border: solid 1px rgb(0, 110, 61) !important;
+    
+  }
+  .carousel-indicators .active{
+    height: 10px !important;
+    width: 10px !important;
+    background-color: cadetblue !important;
+  }
+
+.carousel-item-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.carousel-item-container p{
+    text-align: center;
+    max-width: 60%;
+    font-size: 14px;
+
+}
+.carousel-item-container h4{
+    text-align: center;
+    max-width: 60%;
+    
+}
+.auth-banner-img{
+    width: 50%;
+    height: 50% ;
+    /* background-color: red; */
+}
+.auth-banner-img img{
+    width: 100% ;
+    height: 100% ;
+    object-fit: contain ;
+}
+
+.ibm-logo-nav{
+ 
+  display: flex;
+  width: 100%;
+  padding: 20px;
+  /* background-color: blueviolet; */
+  justify-content: space-between
+}
+
+.ibm-logo-nav img{
+  width: 120px;
+  height: auto;
+}
